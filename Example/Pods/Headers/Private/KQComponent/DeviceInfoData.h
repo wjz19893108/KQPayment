@@ -1,0 +1,1 @@
+../../../KQComponent/KQComponent/ComponentCore/Statistics/KQStatistics/DeviceInfoData.h

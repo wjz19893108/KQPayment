@@ -1,0 +1,1 @@
+../../../KQComponent/subs/DigitCert/KQComponentDigitCert/CFCA/SCAP.h

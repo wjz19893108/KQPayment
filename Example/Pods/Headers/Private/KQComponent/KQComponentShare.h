@@ -1,0 +1,1 @@
+../../../KQComponent/subs/Share/KQComponentShare/KQComponentShare.h

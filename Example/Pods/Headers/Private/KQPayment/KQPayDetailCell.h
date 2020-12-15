@@ -1,0 +1,1 @@
+../../../../../KQPayment/Classes/Pay/KQModulePay/KQPayNavgateCell/KQPayDetailCell.h

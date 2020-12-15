@@ -1,0 +1,1 @@
+../../../KQComponent/subs/UI/KQComponentUI/AlertView/KQErrorAlertView.h

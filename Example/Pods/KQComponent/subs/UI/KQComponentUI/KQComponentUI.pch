@@ -1,0 +1,35 @@
+//
+//  KQComponentUI.pch
+//  KQComponentUI
+//
+//  Created by xy on 2017/12/5.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentUI_pch
+#define KQComponentUI_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import "UIImage+KQBPrivate.h"
+#import "Masonry.h"
+#import "UILabel+KQBAddition.h"
+#import "KQBColor.h"
+#import "KQBFont.h"
+#import "KQBToastView.h"
+#import "RMUniversalAlert.h"
+//#import <KQCore/KQCoreFoundation.h>
+//#import <KQCore/KQCoreShare.h>
+//#import <KQCore/KQCStatisticsManager.h>
+
+#import <KQComponent/KQComponent.h>
+#import <KQComponent/KQComponentShare.h>
+#import <KQComponent/KQComponentHttp.h>
+//#import <KQComponent/KQComponentOMS.h>
+#import <KQComponent/KQComponentSecure.h>
+//#import <KQComponent/KQComponentUser.h>
+#import <KQComponent/KQComponentRouter.h>
+
+
+#endif /* KQComponentUI_pch */

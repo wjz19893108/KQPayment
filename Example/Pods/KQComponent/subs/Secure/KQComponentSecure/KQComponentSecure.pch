@@ -1,0 +1,18 @@
+//
+//  KQComponentSecure.pch
+//  KQComponentSecure
+//
+//  Created by xy on 2017/11/9.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentSecure_pch
+#define KQComponentSecure_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Foundation/Foundation.h>
+#import <KQComponent/KQComponent.h>
+//#import <KQCore/KQCoreFoundation.h>
+
+#endif /* KQComponentSecure_pch */

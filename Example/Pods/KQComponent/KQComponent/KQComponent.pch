@@ -1,0 +1,58 @@
+//
+//  KQComponent.pch
+//  KQComponent
+//
+//  Created by xy on 2018/4/23.
+//  Copyright © 2018年 99bill. All rights reserved.
+//
+
+#ifndef KQComponent_pch
+#define KQComponent_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <KQComponent/KQComponent.h>
+
+#import "KQCLocationEngine.h"
+#import "KQCLocationAddress.h"
+
+#import "KQCScreenMacro.h"
+#import "KQCSystemMacro.h"
+#import "KQCFunctionMacro.h"
+#import "KQCHttpMacro.h"
+#import "KQCFingerPrintMacro.h"
+#import "KQCSwipeCardHttpMacro.h"
+
+#import "KQCSecure.h"
+#import "KQPSecureKeyGroup.h"
+
+#import "KQCKeychain.h"
+
+#import "NSString+KQCAddition.h"
+#import "NSData+KQCAdditions.h"
+#import "NSDictionary+KQCAddition.h"
+#import "NSData+KQCGzip.h"
+
+#import "UIColor+KQCAddition.h"
+#import "UIView+LayoutMethods.h"
+#import "UIImage+KQCAddition.h"
+#import "UIAlertController+KQCLabels.h"
+
+#import "KQCUIEngine.h"
+#import "KQCBufferedNavigationController.h"
+#import "KQCAppBaseViewController.h"
+#import "KQCPanGestureNavigationController.h"
+#import "KQCTabBarDataModel.h"
+
+#import "KQCDate.h"
+#import "KQCKeychain.h"
+#import "KQCDevice.h"
+#import "KQCAmount.h"
+#import "KQCApplication.h"
+#import "KQCMath.h"
+
+#import "KQCFingerPrintManager.h"
+
+#import "KQCStatisticsManager.h"
+
+#endif /* KQComponent_pch */

@@ -1,0 +1,1 @@
+../../../KQComponent/subs/OMS/KQComponentOMS/Banner/KQBOmsBannerModel.h

@@ -1,0 +1,27 @@
+{
+  "name": "KQPayment",
+  "version": "1.1.0",
+  "summary": "A short description of KQPayment.",
+  "dependencies": {
+    "KQComponent": [
+
+    ]
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/383240504@qq.com/KQPayment",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "383240504@qq.com": "jianzhong.wang@99bill.com"
+  },
+  "source": {
+    "git": "https://github.com/383240504@qq.com/KQPayment.git",
+    "tag": "1.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KQPayment/Classes/**/*"
+}

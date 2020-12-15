@@ -1,0 +1,1 @@
+../../../KQComponent/subs/DigitCert/KQComponentDigitCert/KQBSecureCertManager.h

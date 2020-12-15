@@ -1,0 +1,1 @@
+../../../KQComponent/subs/OMS/KQComponentOMS/Tabs/KQBTabManager.h

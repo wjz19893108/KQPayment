@@ -1,0 +1,28 @@
+//
+//  KQComponentDigitCert.pch
+//  KQComponentDigitCert
+//
+//  Created by xy on 2017/12/12.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentDigitCert_pch
+#define KQComponentDigitCert_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import <KQCore/KQCoreFoundation.h>
+
+#if __has_include(<KQComponent/KQComponent.h>)
+    #import <KQComponent/KQComponentHttp.h>
+    #import <KQComponent/KQComponentUser.h>
+    #import <KQComponent/KQComponentCache.h>
+    #import <KQComponent/KQComponentOMS.h>
+#else
+    #import <KQComponentHttp/KQComponentHttp.h>
+    #import <KQComponentUser/KQComponentUser.h>
+    #import <KQComponentCache/KQComponentCache.h>
+    #import <KQComponentOMS/KQComponentOMS.h>
+#endif
+
+#endif /* KQComponentDigitCert_pch */

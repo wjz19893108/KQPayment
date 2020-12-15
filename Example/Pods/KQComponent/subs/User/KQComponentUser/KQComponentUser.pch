@@ -1,0 +1,28 @@
+//
+//  KQCompentUser.pch
+//  KQComponentUser
+//
+//  Created by xy on 2017/11/24.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQCompentUser_pch
+#define KQCompentUser_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import <KQCore/KQCoreFoundation.h>
+
+
+#if __has_include(<KQComponent/KQComponent.h>)
+    #import <KQComponent/KQComponentHttp.h>
+    #import <KQComponent/KQComponentSecure.h>
+    #import <KQComponent/KQComponentCache.h>
+#else
+    #import <KQComponentHttp/KQComponentHttp.h>
+    #import <KQComponentSecure/KQComponentSecure.h>
+    #import <KQComponentCache/KQComponentCache.h>
+#endif
+
+
+#endif /* KQCompentUser_pch */

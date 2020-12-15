@@ -1,0 +1,6 @@
+framework module KQPayment {
+  umbrella header "KQPayment-umbrella.h"
+
+  export *
+  module * { export * }
+}

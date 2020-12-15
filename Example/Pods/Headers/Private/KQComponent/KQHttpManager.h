@@ -1,0 +1,1 @@
+../../../KQComponent/subs/Http/KQComponentHttp/KQHttpManager.h

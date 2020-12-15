@@ -1,0 +1,358 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+//
+//  KQComponent.pch
+//  KQComponent
+//
+//  Created by xy on 2018/4/23.
+//  Copyright © 2018年 99bill. All rights reserved.
+//
+
+#ifndef KQComponent_pch
+#define KQComponent_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <KQComponent/KQComponent.h>
+
+#import "KQCLocationEngine.h"
+#import "KQCLocationAddress.h"
+
+#import "KQCScreenMacro.h"
+#import "KQCSystemMacro.h"
+#import "KQCFunctionMacro.h"
+#import "KQCHttpMacro.h"
+#import "KQCFingerPrintMacro.h"
+#import "KQCSwipeCardHttpMacro.h"
+
+#import "KQCSecure.h"
+#import "KQPSecureKeyGroup.h"
+
+#import "KQCKeychain.h"
+
+#import "NSString+KQCAddition.h"
+#import "NSData+KQCAdditions.h"
+#import "NSDictionary+KQCAddition.h"
+#import "NSData+KQCGzip.h"
+
+#import "UIColor+KQCAddition.h"
+#import "UIView+LayoutMethods.h"
+#import "UIImage+KQCAddition.h"
+#import "UIAlertController+KQCLabels.h"
+
+#import "KQCUIEngine.h"
+#import "KQCBufferedNavigationController.h"
+#import "KQCAppBaseViewController.h"
+#import "KQCPanGestureNavigationController.h"
+#import "KQCTabBarDataModel.h"
+
+#import "KQCDate.h"
+#import "KQCKeychain.h"
+#import "KQCDevice.h"
+#import "KQCAmount.h"
+#import "KQCApplication.h"
+#import "KQCMath.h"
+
+#import "KQCFingerPrintManager.h"
+
+#import "KQCStatisticsManager.h"
+
+#endif /* KQComponent_pch */
+//
+//  KQComponentCache.pch
+//  KQComponentCache
+//
+//  Created by xy on 2017/11/20.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentCache_pch
+#define KQComponentCache_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import <KQCore/KQCoreFoundation.h>
+//#import <KQCore/KQCoreFile.h>
+
+#import "KQBCacheMacro.h"
+#import <KQComponent/KQComponentFile.h>
+
+#endif /* KQComponentCache_pch */
+//
+//  KQComponentDigitCert.pch
+//  KQComponentDigitCert
+//
+//  Created by xy on 2017/12/12.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentDigitCert_pch
+#define KQComponentDigitCert_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import <KQCore/KQCoreFoundation.h>
+//#import <KQCore/KQCoreFile.h>
+
+#if __has_include(<KQComponent/KQComponent.h>)
+    #import <KQComponent/KQComponentHttp.h>
+    #import <KQComponent/KQComponentSecure.h>
+    #import <KQComponent/KQComponentCache.h>
+#else
+    #import <KQComponentHttp/KQComponentHttp.h>
+    #import <KQComponentSecure/KQComponentSecure.h>
+    #import <KQComponentCache/KQComponentCache.h>
+#endif
+
+#endif /* KQComponentDigitCert_pch */
+//
+//  KQCoreFile.pch
+//  KQCoreFile
+//
+//  Created by xy on 2017/10/31.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQCoreFile_pch
+#define KQCoreFile_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#if __has_include(<KQCore/KQCoreFoundation.h>)
+//    #import <KQComponent/KQCoreFoundation.h>
+//#else
+//    #import <KQCoreFoundation/KQCoreFoundation.h>
+//#endif
+
+#endif /* KQCoreFile_pch */
+//
+//  KQComponentDigitCert.pch
+//  KQComponentDigitCert
+//
+//  Created by xy on 2017/12/12.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentDigitCert_pch
+#define KQComponentDigitCert_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import <KQCore/KQCoreFoundation.h>
+
+#if __has_include(<KQComponent/KQComponent.h>)
+    #import <KQComponent/KQComponentHttp.h>
+    #import <KQComponent/KQComponentUser.h>
+    #import <KQComponent/KQComponentCache.h>
+    #import <KQComponent/KQComponentOMS.h>
+#else
+    #import <KQComponentHttp/KQComponentHttp.h>
+    #import <KQComponentUser/KQComponentUser.h>
+    #import <KQComponentCache/KQComponentCache.h>
+    #import <KQComponentOMS/KQComponentOMS.h>
+#endif
+
+#endif /* KQComponentDigitCert_pch */
+//
+//  KQComponemtHttp.pch
+//  KQComponentHttp
+//
+//  Created by xy on 2017/11/1.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponemtHttp_pch
+#define KQComponemtHttp_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+//#import <KQCore/KQCoreFoundation.h>
+//#import <KQCore/KQCoreHttpEngine.h>
+#import <KQComponent/KQComponent.h>
+
+#endif /* KQComponemtHttp_pch */
+//
+//  KQComponentOMS.pch
+//  KQComponentOMS
+//
+//  Created by xy on 2017/12/8.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentOMS_pch
+#define KQComponentOMS_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <KQComponent/KQComponent.h>
+//#import <KQCore/KQCoreFoundation.h>
+//#import <KQCore/KQCoreFile.h>
+
+#if __has_include(<KQComponent/KQComponent.h>)
+    #import <KQComponent/KQComponentHttp.h>
+    #import <KQComponent/KQComponentCache.h>
+#else
+    #import <KQComponentHttp/KQComponentHttp.h>
+    #import <KQComponentCache/KQComponentCache.h>
+#endif
+
+#endif /* KQComponentOMS_pch */
+//
+//  KQComponentPush.pch
+//  KQComponentPush
+//
+//  Created by xy on 2017/12/11.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentPush_pch
+#define KQComponentPush_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import <KQCore/KQCoreFoundation.h>
+
+#if __has_include(<KQComponent/KQComponent.h>)
+    #import <KQComponent/KQComponentHttp.h>
+#else
+    #import <KQComponentHttp/KQComponentHttp.h>
+#endif
+
+#endif /* KQComponentPush_pch */
+//
+//  KQComponentSecure.pch
+//  KQComponentSecure
+//
+//  Created by xy on 2017/11/9.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentSecure_pch
+#define KQComponentSecure_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <Foundation/Foundation.h>
+#import <KQComponent/KQComponent.h>
+//#import <KQCore/KQCoreFoundation.h>
+
+#endif /* KQComponentSecure_pch */
+//
+//  KQComponentShare.pch
+//  KQComponentShare
+//
+//  Created by xy on 2017/12/11.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentShare_pch
+#define KQComponentShare_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import <KQCore/KQCoreFoundation.h>
+//#import <KQCore/KQCoreShare.h>
+#import <Masonry/Masonry.h>
+#import <SDWebImage/SDWebImageManager.h>
+#import <KQComponent/KQComponent.h>
+#import "KQCShareData.h"
+
+#endif /* KQComponentShare_pch */
+//
+//  KQComponentStatusController.pch
+//  KQComponentStatusController
+//
+//  Created by xy on 2017/12/13.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentStatusController_pch
+#define KQComponentStatusController_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import <KQCore/KQCoreFoundation.h>
+
+#if __has_include(<KQComponent/KQComponent.h>)
+    #import <KQComponent/KQComponentCache.h>
+#else
+    #import <KQComponentCache/KQComponentCache.h>
+#endif
+
+
+#endif /* KQComponentStatusController_pch */
+//
+//  KQComponentUI.pch
+//  KQComponentUI
+//
+//  Created by xy on 2017/12/5.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentUI_pch
+#define KQComponentUI_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+#import "UIImage+KQBPrivate.h"
+#import "Masonry.h"
+#import "UILabel+KQBAddition.h"
+#import "KQBColor.h"
+#import "KQBFont.h"
+#import "KQBToastView.h"
+#import "RMUniversalAlert.h"
+//#import <KQCore/KQCoreFoundation.h>
+//#import <KQCore/KQCoreShare.h>
+//#import <KQCore/KQCStatisticsManager.h>
+
+#import <KQComponent/KQComponent.h>
+#import <KQComponent/KQComponentShare.h>
+#import <KQComponent/KQComponentHttp.h>
+//#import <KQComponent/KQComponentOMS.h>
+#import <KQComponent/KQComponentSecure.h>
+//#import <KQComponent/KQComponentUser.h>
+#import <KQComponent/KQComponentRouter.h>
+
+
+#endif /* KQComponentUI_pch */
+//
+//  KQCompentUser.pch
+//  KQComponentUser
+//
+//  Created by xy on 2017/11/24.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQCompentUser_pch
+#define KQCompentUser_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import <KQCore/KQCoreFoundation.h>
+
+
+#if __has_include(<KQComponent/KQComponent.h>)
+    #import <KQComponent/KQComponentHttp.h>
+    #import <KQComponent/KQComponentSecure.h>
+    #import <KQComponent/KQComponentCache.h>
+#else
+    #import <KQComponentHttp/KQComponentHttp.h>
+    #import <KQComponentSecure/KQComponentSecure.h>
+    #import <KQComponentCache/KQComponentCache.h>
+#endif
+
+
+#endif /* KQCompentUser_pch */

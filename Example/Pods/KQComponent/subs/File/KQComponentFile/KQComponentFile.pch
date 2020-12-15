@@ -1,0 +1,20 @@
+//
+//  KQCoreFile.pch
+//  KQCoreFile
+//
+//  Created by xy on 2017/10/31.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQCoreFile_pch
+#define KQCoreFile_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#if __has_include(<KQCore/KQCoreFoundation.h>)
+//    #import <KQComponent/KQCoreFoundation.h>
+//#else
+//    #import <KQCoreFoundation/KQCoreFoundation.h>
+//#endif
+
+#endif /* KQCoreFile_pch */

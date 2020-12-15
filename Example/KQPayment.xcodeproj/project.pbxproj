@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F2534F98CCBCFC8EC5C619C /* Pods_KQPayment_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC67ED7FAC1B3901BA21A96 /* Pods_KQPayment_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		FD361E6CBD333E2155838326 /* Pods_KQPayment_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B9EBD27F250928CAFFE32A /* Pods_KQPayment_Example.framework */; };
+		94CC6DFEB856A635A293A752 /* libPods-KQPayment_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C14506AA411625838767897 /* libPods-KQPayment_Example.a */; };
+		9B0412D998370C6054AA4167 /* libPods-KQPayment_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0D8C6890F230BC5C539AD6 /* libPods-KQPayment_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C14506AA411625838767897 /* libPods-KQPayment_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KQPayment_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		12BEA7E68BD07ED35BEEE8C0 /* Pods-KQPayment_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KQPayment_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KQPayment_Tests/Pods-KQPayment_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		15B9EBD27F250928CAFFE32A /* Pods_KQPayment_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KQPayment_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E0E55C850FECA7DC135FD0 /* Pods-KQPayment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KQPayment_Example.release.xcconfig"; path = "Target Support Files/Pods-KQPayment_Example/Pods-KQPayment_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1B0D8C6890F230BC5C539AD6 /* libPods-KQPayment_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KQPayment_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* KQPayment_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KQPayment_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +63,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72B307C069EB1C362D60755B /* Pods-KQPayment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KQPayment_Tests.release.xcconfig"; path = "Target Support Files/Pods-KQPayment_Tests/Pods-KQPayment_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2377B089BF28A1E3F317CB7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BCF28AF01AC322153222D07F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CCC67ED7FAC1B3901BA21A96 /* Pods_KQPayment_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KQPayment_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7A88515C3C61F7DC19ED2A2 /* KQPayment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KQPayment.podspec; path = ../KQPayment.podspec; sourceTree = "<group>"; };
+		B2377B089BF28A1E3F317CB7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BCF28AF01AC322153222D07F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E7A88515C3C61F7DC19ED2A2 /* KQPayment.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KQPayment.podspec; path = ../KQPayment.podspec; sourceTree = "<group>"; };
 		EA93A86B260C535EA02AA0E3 /* Pods-KQPayment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KQPayment_Example.debug.xcconfig"; path = "Target Support Files/Pods-KQPayment_Example/Pods-KQPayment_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				FD361E6CBD333E2155838326 /* Pods_KQPayment_Example.framework in Frameworks */,
+				94CC6DFEB856A635A293A752 /* libPods-KQPayment_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2F2534F98CCBCFC8EC5C619C /* Pods_KQPayment_Tests.framework in Frameworks */,
+				9B0412D998370C6054AA4167 /* libPods-KQPayment_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				15B9EBD27F250928CAFFE32A /* Pods_KQPayment_Example.framework */,
-				CCC67ED7FAC1B3901BA21A96 /* Pods_KQPayment_Tests.framework */,
+				0C14506AA411625838767897 /* libPods-KQPayment_Example.a */,
+				1B0D8C6890F230BC5C539AD6 /* libPods-KQPayment_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				12BEA7E68BD07ED35BEEE8C0 /* Pods-KQPayment_Tests.debug.xcconfig */,
 				72B307C069EB1C362D60755B /* Pods-KQPayment_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				29705A43065D87B003E2F9AF /* [CP] Embed Pods Frameworks */,
+				D1F0292DDF2A05475102C077 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -317,22 +317,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		29705A43065D87B003E2F9AF /* [CP] Embed Pods Frameworks */ = {
+		D1F0292DDF2A05475102C077 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KQPayment_Example/Pods-KQPayment_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KQPayment/KQPayment.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-KQPayment_Example/Pods-KQPayment_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/KQComponent/KQComponentUI.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KQPayment.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KQComponentUI.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KQPayment_Example/Pods-KQPayment_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KQPayment_Example/Pods-KQPayment_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD1F408CED8506C11FC06932 /* [CP] Check Pods Manifest.lock */ = {

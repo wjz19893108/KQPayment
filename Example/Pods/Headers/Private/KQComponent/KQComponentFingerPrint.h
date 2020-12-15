@@ -1,0 +1,1 @@
+../../../KQComponent/subs/FingerPrint/KQComponentFingerPrint/KQComponentFingerPrint.h

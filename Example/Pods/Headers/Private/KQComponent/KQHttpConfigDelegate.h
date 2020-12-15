@@ -1,0 +1,1 @@
+../../../KQComponent/subs/Http/KQComponentHttp/Delegate/KQHttpConfigDelegate.h

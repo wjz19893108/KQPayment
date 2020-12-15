@@ -1,0 +1,12 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/KQComponent/KQComponent/ComponentCore/Statistics/UMeng"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/KQComponent" "${PODS_ROOT}/Headers/Public/KQPayment" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/RMUniversalAlert" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/UIActionSheet+Blocks" "${PODS_ROOT}/Headers/Public/UIAlertController+Blocks" "${PODS_ROOT}/Headers/Public/UIAlertView+Blocks" "${PODS_ROOT}/Headers/Public/WechatOpenSDK" "${PODS_ROOT}/Headers/Public/YYModel" "${PODS_ROOT}/Headers/Public/ZipArchive"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/KQComponent" "${PODS_CONFIGURATION_BUILD_DIR}/KQPayment" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/RMUniversalAlert" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/UIActionSheet+Blocks" "${PODS_CONFIGURATION_BUILD_DIR}/UIAlertController+Blocks" "${PODS_CONFIGURATION_BUILD_DIR}/UIAlertView+Blocks" "${PODS_CONFIGURATION_BUILD_DIR}/YYModel" "${PODS_CONFIGURATION_BUILD_DIR}/ZipArchive" "${PODS_ROOT}/KQComponent/subs/DigitCert/KQComponentDigitCert/CFCA" "${PODS_ROOT}/KQComponent/subs/Http/KQComponentHttp/Proto/lib" "${PODS_ROOT}/KQComponent/subs/Push/KQComponentPush/BaiduPush" "${PODS_ROOT}/WechatOpenSDK/OpenSDK1.8.7.1"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"BPush" -l"KQComponent" -l"KQPayment" -l"MLog_4101" -l"Masonry" -l"ProtocolBuffers" -l"RMUniversalAlert" -l"SCAP" -l"SDWebImage" -l"UIActionSheet+Blocks" -l"UIAlertController+Blocks" -l"UIAlertView+Blocks" -l"WeChatSDK" -l"YYModel" -l"ZipArchive" -l"c++" -l"crypto_1001e_0003_n" -l"smkernel_4007_n" -l"sqlite3.0" -l"stdc++" -l"xml2.2" -l"z" -framework "CoreFoundation" -framework "CoreGraphics" -framework "Foundation" -framework "ImageIO" -framework "LocalAuthentication" -framework "Security" -framework "UIKit" -framework "UMMobClick" -framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

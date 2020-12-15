@@ -1,0 +1,1 @@
+../../../KQComponent/subs/Cache/KQComponentCache/KQBCacheSecureDelegate.h

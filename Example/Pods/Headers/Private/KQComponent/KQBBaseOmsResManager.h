@@ -1,0 +1,1 @@
+../../../KQComponent/subs/OMS/KQComponentOMS/OMS/Manager/BaseManager/KQBBaseOmsResManager.h

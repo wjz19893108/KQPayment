@@ -1,0 +1,1 @@
+../../../KQComponent/subs/UI/KQComponentUI/Category/UIImage+KQBPrivate.h

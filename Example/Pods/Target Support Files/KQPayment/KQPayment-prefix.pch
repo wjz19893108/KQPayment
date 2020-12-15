@@ -1,0 +1,24 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+
+#import <KQComponent/KQComponent.h>
+#import <KQComponent/KQComponentHttp.h>
+#import <KQComponent/KQComponentUI.h>
+#import <KQComponent/KQComponentSecure.h>
+#import <KQComponent/KQComponentOMS.h>
+#import <KQComponent/KQComponentUser.h>
+#import <KQComponent/KQComponentFingerPrint.h>
+#import <KQComponent/KQComponentDigitCert.h>
+#import "Masonry.h"
+#import "UIAlertView+Blocks.h"
+
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+

@@ -1,0 +1,20 @@
+//
+//  KQComponentCache.pch
+//  KQComponentCache
+//
+//  Created by xy on 2017/11/20.
+//  Copyright © 2017年 99bill. All rights reserved.
+//
+
+#ifndef KQComponentCache_pch
+#define KQComponentCache_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import <KQCore/KQCoreFoundation.h>
+//#import <KQCore/KQCoreFile.h>
+
+#import "KQBCacheMacro.h"
+#import <KQComponent/KQComponentFile.h>
+
+#endif /* KQComponentCache_pch */

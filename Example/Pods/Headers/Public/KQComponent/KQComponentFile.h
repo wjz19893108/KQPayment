@@ -1,0 +1,1 @@
+../../../KQComponent/subs/File/KQComponentFile/KQComponentFile.h

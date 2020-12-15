@@ -1,0 +1,1 @@
+../../../KQComponent/subs/Http/KQComponentHttp/KQHttpRequestData/KQHttpSwipeCardRequestData.h

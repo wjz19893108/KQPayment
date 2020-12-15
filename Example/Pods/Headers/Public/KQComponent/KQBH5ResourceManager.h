@@ -1,0 +1,1 @@
+../../../KQComponent/subs/OMS/KQComponentOMS/H5Resource/KQBH5ResourceManager.h

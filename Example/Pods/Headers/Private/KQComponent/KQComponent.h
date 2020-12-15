@@ -1,0 +1,1 @@
+../../../KQComponent/KQComponent/KQComponent.h
